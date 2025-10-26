@@ -40,7 +40,7 @@ function App() {
     <footer className="bg-gray-900 text-white py-8 mt-12">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <p className="text-lg mb-2">Made with love from the East Blue 🌊</p>
-        <p className="text-sm text-gray-400">© 2024 Red-HairedDev • All rights reserved</p>
+        <p className="text-sm text-gray-400">© 2025 Red-HairedDev • All rights reserved</p>
       </div>
     </footer>
   );
@@ -152,8 +152,8 @@ function App() {
             <h3 className="text-lg font-bold text-gray-800 mb-2">Want to collaborate on treasure hunts?</h3>
             <div className="flex items-center space-x-2">
               <Mail className="w-5 h-5 text-blue-600" />
-              <a href="mailto:namithedev@protonmail.com" className="text-blue-600 hover:underline">
-                namithedev@protonmail.com
+              <a href="mailto:namithedev@proton.me" className="text-blue-600 hover:underline">
+                namithedev@proton.me
               </a>
             </div>
           </div>
@@ -238,12 +238,13 @@ function App() {
 
             <div className="my-8 bg-gray-100 p-4 rounded-lg">
               <p className="text-center text-gray-600 italic mb-2">Photo taken during my last voyage:</p>
-              <div className="bg-gradient-to-br from-blue-400 to-blue-600 h-64 rounded flex items-center justify-center text-white">
-                <div className="text-center">
-                  <p className="text-xl mb-2">🏝️ Port Town at Sunset</p>
-                  <p className="text-sm opacity-75">Sunny_Day_PortTown_Nami.jpg</p>
-                </div>
-              </div>
+              <img 
+                src="/Sunny_Day_PortTown.jpg" 
+                alt="Sunny Day Port Town"
+                className="w-full h-64 object-cover rounded"
+              />
+              <p className="text-center text-sm text-gray-500 mt-2">Sunny_Day_PortTown_Nami.jpg</p>
+              <p className="text-center text-xs text-gray-400 mt-1">Right-click → Save image to download</p>
             </div>
 
             <p className="font-bold text-gray-800">Remember:</p>
@@ -304,7 +305,7 @@ function App() {
 
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 my-6">
               <p className="font-bold text-gray-800">Pro Tip:</p>
-              <p>Always verify checksums and signatures before executing unknown files. Trust, but verify—that's the pirate code.</p>
+              <p>Detectives notice weird strings. If something looks “off” — copy it, decode it, and don’t assume it’s just garbage.</p>
             </div>
 
             <p className="italic text-right">
@@ -482,9 +483,7 @@ function App() {
                 collaboration opportunities, or just want to talk shop about the latest exploits.
               </p>
               <p className="text-gray-700">
-                Find me on professional networks under <strong>NamiTheNavigator99</strong> — I'd love to hear about 
-                your journey and see how we might help each other navigate these stormy seas.
-              </p>
+                You can usually find me around the fediverse as <strong>@RedHairedDev</strong> — let’s swap stories and navigate these stormy seas together.              </p>
             </div>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Final Thoughts:</h2>
